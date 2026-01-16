@@ -1,0 +1,32 @@
+{
+  "transactions": [
+    {
+      "id": "d9a3",
+      "title": "Gaji",
+      "amount": 1000000,
+      "type": "income",
+      "date": "2026-01-01"
+    },
+    {
+      "id": "9d04",
+      "title": "Gaji",
+      "amount": 10000000,
+      "type": "income",
+      "date": "2026-01-16"
+    },
+    {
+      "id": "69d6",
+      "title": "Makan hyce",
+      "amount": 120000,
+      "type": "expense",
+      "date": "2026-01-17"
+    },
+    {
+      "id": "f8fe",
+      "title": "Makan Keluarga",
+      "amount": 1200000,
+      "type": "expense",
+      "date": "2026-01-16"
+    }
+  ]
+}
