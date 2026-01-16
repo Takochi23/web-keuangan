@@ -13,7 +13,7 @@ function App() {
   const [txs, setTxs] = useState([]);
   const [form, setForm] = useState({ title: '', amount: '', type: 'income', date: new Date().toISOString().split('T')[0] });
   const [editId, setEditId] = useState(null);
-  const API = 'http://localhost:3000/transactions';
+  const API = 'https://6969fb753a2b2151f846b9a9.mockapi.io/transactions';
 
   const loadData = async () => setTxs((await axios.get(API)).data.reverse());
   useEffect(() => { loadData(); }, []);
